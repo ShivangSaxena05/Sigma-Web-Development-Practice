@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 10px;
+    animation: new cubic-bezier(0, 1.08, 0.55, 0.95) both,shift;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* transition: trans,trans2;
+    transition: 1s ease-out; */
+}
+/* .trans{
+
+} */
+/* .trans2{
+    transform: translateY(-400px);
+} */
+@keyframes shift {
+ 10%{
+    transform: translateX(0);
+ }
+ 20%{
+    transform: translateX(100px) translateY(-200px);
+ }
+ 30%{
+    transform: translateX(200px) translateY(0);
+ }
+ 40%{
+    transform: translateX(300px) translateY(-200px);
+ }
+ 50%{
+   transform: translateX(400px) translateY(0);
+ }
+ 60%{
+   transform: translateX(500px) translateY(-200px);
+ }
+ 70%{
+   transform: translateX(600px) translateY(0);
+ }
+ 80%{
+   transform: translateX(700px) translateY(-200px);
+ }
+ 90%{
+   transform: translateX(800px) translateY(0);
+ }
+ 100%{
+   transform: translateX(900px) translateY(-200);
+ }
+ 110%{
+   transform: translateX(1000px) translateY(0);
+ }
+}

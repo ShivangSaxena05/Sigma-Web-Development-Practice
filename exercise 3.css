@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+}
+.main{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 640px;
+    border: 1px solid rgb(159, 158, 158);
+}
+.camera {
+    padding: 5px;
+    }
+img{
+    border-radius: 20px;
+}
+.hashes span{
+    padding-inline: 15px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(159, 158, 158);
+    background-color: white;
+    opacity: 40%;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text h1,h6{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+h1{
+    font-size: 45px;
+}
+h6{
+    opacity: 40%;
+    font-size: medium;
+}
+input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 20px;
+    width: 180px;
+    color: blue;
+    background-color: rgb(177, 222, 239);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+

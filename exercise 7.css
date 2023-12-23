@@ -1,0 +1,128 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main1{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.img{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    width: fit-content;
+    border-radius: 5px;
+}
+b{
+    margin: 0 10px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.line img{
+    margin: 40px;
+}
+.line2{
+    width: 900px;
+    font-size: 23px;
+    margin: 0 auto;
+    text-align: center;
+}
+.area{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 100px;
+}
+.download{
+    font-size: 35px;
+}
+.next{
+    font-size: 100%;
+}
+.img2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    width: fit-content;
+    border-radius: 5px;
+}
+ul{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li{
+    font-size: 15px;
+    gap: 5px;
+    display: flex;
+}
+header{
+    margin-bottom: 100px;
+}
+.below{
+    margin: 0 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+@media only screen and (max-width: 980px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .options{
+        display: none;
+    }
+    }
+.boxes{
+    display: grid;
+    grid-template-rows: 30px 60px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(232, 232, 232);
+}
+a{
+    color: white;
+}
+.boxes a:first-child{
+    padding: 12px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #00b6d1;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px0px;
+}
+.boxes a:nth-child(2){
+    padding: 10px;
+    height: 20px;
+    font-size: 10px;
+    background-color:#5cb85c;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px0px;
+}

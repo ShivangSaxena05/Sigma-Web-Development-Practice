@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main1{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+ul{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li{
+    gap: 5px;
+    display: flex;
+}

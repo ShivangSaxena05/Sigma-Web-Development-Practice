@@ -1,0 +1,48 @@
+@media only screen and (max-width:400px){
+    ul{
+        display:none;
+        background-color: black;
+    }
+}
+:root{
+    --color: red;
+    --seccolor: skyblue;
+    --thirdcolor:white;
+    --bodyfont: cursive;
+    --secondfont: Brush Script MT;
+    --bg:url(https://img.freepik.com/free-photo/cardano-blockchain-platform_23-2150411956.jpg?w=900&t=st=1699584376~exp=1699584976~hmac=6051b8edb678258790fe103240756689e0a9245cecf560bd2f614dcf1dc9a06e);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: var(--thirdcolor);
+    font-family: var(--secondfont);
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    background-image: var(--bg);
+    background-color: var(--color);
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+li{
+    font-family: var(--bodyfont);
+    background-color: var(--seccolor);
+    margin: 20px;
+    padding-inline: 10px;
+    border:solid var(--color);
+}
+input{
+    font-size: xx-large;
+    border: none;
+    background:none;
+    cursor:pointer;
+    font-size: 15px;
+}
