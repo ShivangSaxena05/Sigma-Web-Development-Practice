@@ -8,7 +8,7 @@ let oper = {
     "-":"/",
     "/":"**"
 }
-alert(Its a faulty calculator)
+alert("Its a faulty calculator")
 if(ran>0.1){
     alert(`The calculation is ${eval (`${a} ${obj} ${b}`)}`)
 }
